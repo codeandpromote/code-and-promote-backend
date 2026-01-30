@@ -26,6 +26,17 @@
         "videos",
         "audios"
       ]
+    },
+    "category": {
+      "type": "enumeration",
+      "enum": [
+        "seo",
+        "web-dev",
+        "ppc",
+        "social",
+        "content",
+        "growth"
+      ]
     }
   }
 }

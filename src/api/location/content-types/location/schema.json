@@ -35,6 +35,15 @@
     },
     "seo": {
       "type": "json"
+    },
+    "country": {
+      "type": "enumeration",
+      "enum": [
+        "USA",
+        "UK",
+        "Australia",
+        "Cayman Islands"
+      ]
     }
   }
 }

@@ -444,7 +444,7 @@ export interface ApiLocationLocation extends Struct.CollectionTypeSchema {
     city: Schema.Attribute.String;
     content_body: Schema.Attribute.Blocks;
     country: Schema.Attribute.Enumeration<
-      ['USA', 'UK', 'Australia', 'Cayman Islands']
+      ['USA', 'UK', 'Australia', 'Cayman Islands', 'Asia']
     >;
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
